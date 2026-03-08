@@ -267,3 +267,5 @@ El sitio web está pensado como si fuera para postularme a un puesto ficticio de
 
 o Diferenciadores claves 
 Uno de mis diferenciadores es el enfoque en la gestión basada en resultados y métricas, utilizando indicadores para medir el avance y desempeño de los proyectos. Además, destaco la capacidad de entender aspectos técnicos y convertirlos en planes de trabajo claros y organizados para el equipo y el cliente.
+
+Link prototipo Figma: https://www.figma.com/design/A3C2GB3QEM7d5V2WIASwGR/Untitled?node-id=0-1&t=Z1ECAQ8RSgT4jVHU-1
