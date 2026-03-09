@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portafolio — Andrés Mora Mora</title>
+  <meta name="description" content="Portafolio de Andrés Mora Mora, IT Project Manager con 8 años de experiencia.">
+  <title>Andrés Mora Mora — IT Project Manager | Portafolio</title>
 
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -12,26 +13,26 @@
 <body>
   <header>
     <h1>Portafolio</h1>
-    <ul class="nav-links">
-      <li><a href="#about">Sobre mí</a></li>
-      <li><a href="#tools">Herramientas</a></li>
-      <li><a href="#contact">Contacto</a></li>
-    </ul>
+    <nav aria-label="Navegación principal">
+      <ul class="nav-links">
+        <li><a href="#about">Sobre mí</a></li>
+        <li><a href="#tools">Herramientas</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
   </header>
 
   <main>
 
     <article class="intro">
-      <section id="about">
-        <h2>Andrés Mora Mora</h2>
+      <section class="about" id="about">
+        <h2>Andrés<br><span>Mora</span><br>Mora</h2>
         <p>Transformo ideas complejas en proyectos ejecutables. Lidero equipos multidisciplinarios y entrego resultados
           con precisión, alineando tecnología y estrategia de negocio.</p>
       </section>
     </article>
 
-
-
-    <section>
+    <section aria-label="Perfil profesional">
       <div class="profile-container">
 
         <div class="profile-info">
@@ -143,25 +144,26 @@
         </div>
       </div>
     </section>
+
+    <section class="contact" id="contact">
+      <h2 class="contact-title">¿Listo para el<br>próximo <em>proyecto</em>?</h2>
+      <p class="contact-sub">Estoy disponible para nuevas oportunidades. Hablemos sobre cómo puedo sumar valor a su
+        equipo
+        y organización.</p>
+      <div class="contact-links">
+        <a class="contact-item" href="mailto:andresmora22@gmail.com">
+          <span>✉️</span> andresmora22@gmail.com
+        </a>
+        <a class="contact-item" href="tel:+50688745732">
+          <span>📞</span> +506 88745732
+        </a>
+        <a class="contact-item" href="cv-andres-mora.pdf" download>
+          <span>📄</span> Descargar CV
+        </a>
+      </div>
+    </section>
+
   </main>
-
-  <section class="contact" id="contact">
-    <h2 class="contact-title">¿Listo para el<br>próximo <em>proyecto</em>?</h2>
-    <p class="contact-sub">Estoy disponible para nuevas oportunidades. Hablemos sobre cómo puedo sumar valor a su equipo
-      y organización.</p>
-    <div class="contact-links">
-      <a class="contact-item" href="andresmora@gmail.com">
-        <span>✉️</span> andresmora22@gmail.com
-      </a>
-      <a class="contact-item" href="88745732">
-        <span>📞</span> +506 88745732
-      </a>
-
-      <a class="contact-item" href="#">
-        <span>📄</span> Descargar CV
-      </a>
-    </div>
-  </section>
 
   <footer>
     <div class="footer-copy">Construyendo soluciones tecnológicas eficientes y equipos de alto rendimiento.</div>
